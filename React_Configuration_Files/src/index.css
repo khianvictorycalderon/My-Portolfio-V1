@@ -1,0 +1,349 @@
+body {
+    background:#013045;
+}
+
+@keyframes slideLeftToRight {
+    from {
+        opacity:0;
+        transform:translateX(-100px);
+    }
+    to {
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes slideRightToLeft {
+    from {
+        opacity:0;
+        transform:translateX(100px);
+    }
+    to {
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes slideLeftToRightWithDelay {
+    0% {
+        opacity:0;
+        transform:translateX(-100px);
+    }
+    30% {
+        opacity:0;
+        transform:translateX(-100px);
+    }
+    100% {
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes slideUpToDown {
+    from {
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    to {
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+@keyframes slideUpToDownWithDelay {
+    0% {
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    30% {
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    100% {
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+@keyframes slideDownToUp {
+    from {
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to {
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+@keyframes slideLeftToRightShort {
+    from {
+        opacity:0;
+        transform:translateX(-50px);
+    }
+    to {
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes slideLeftToRightShortwithDelay {
+    0% {
+        opacity:0;
+        transform:translateX(-50px);
+    }
+    50% {
+        opacity:0;
+        transform:translateX(-50px);
+    }
+    100% {
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+@keyframes slideUpToDownwithDelay {
+    0% {
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    50% {
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    100% {
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+@keyframes slideDownToUpwithDelay {
+    0% {
+        opacity:0;
+        transform:translateY(50px);
+    }
+    50% {
+        opacity:0;
+        transform:translateY(50px);
+    }
+    100% {
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+.freelancer-inquire {
+    animation: slideRightToLeft 1s ease-out;
+}
+
+.navigation {
+    position:sticky;
+    top:0;
+    left:0;
+    width:100%;
+    color:white;
+    background:#004869;
+    padding-left:2%;
+    font-size:2rem;
+    align-content:center;
+    align-items:center;
+    animation: slideUpToDown 1s ease-out;
+    z-index:1;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.292);
+}
+
+.left {
+    text-align:left;
+}
+
+.bg-1 {
+    background:#004869;
+}
+.bg-2 {
+    background:#005E8A;
+}
+
+.no-bg {
+    background:none;
+}
+
+.remove-design {
+    border:none;
+}
+
+.right {
+    text-align:right;
+}
+
+.footer {
+    border-top: 0.5px solid rgba(255, 255, 255, 0.292);
+    padding:2%;
+    animation: slideDownToUp 1s ease-out;
+}
+
+.center-v {
+    align-items:center;
+    align-content:center;
+}
+
+.small-image {
+    height:2rem;
+    margin:0.2%;
+}
+
+.card {
+    background:#004869;
+    color:rgb(246, 246, 246);
+    padding:4%;
+    box-shadow: 3px 3px 7px black;
+    border:solid 1px rgba(168, 168, 168, 0.139);
+}
+
+.rating-and-review-card {
+    background:#004869;
+    color:rgb(246, 246, 246);
+    padding:1%;
+    box-shadow: 3px 3px 7px black;
+    border:solid 1px rgba(168, 168, 168, 0.139);
+}
+
+.box-2x {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:20px;
+}
+
+.box-1x {
+    display:grid;
+    grid-template-columns:1fr;
+    grid-gap:20px;
+}
+
+.navigation-logo {
+    height:3rem;
+    margin:auto;
+    margin-right:2%;
+}
+
+#fixed-menu {
+    overflow-y: scroll;
+    background:#165674;
+    color:white;
+    position:fixed;
+    top:0;
+    width:30vw;
+    height:100%;
+    z-index:5;
+    padding:2%;
+    transition:0.5s ease-in-out;
+}
+
+.pointer {
+    cursor:pointer;
+}
+
+.menu-light {
+    transition:0.5s;
+}
+.menu-light:hover {
+    background:#31afea;
+}
+
+.center {
+    text-align:center;
+}
+
+.home-desc {
+    animation:slideUpToDownWithDelay 2s ease-out;
+}
+
+.profilePic {
+    width:50%;
+    height:auto;
+    border-radius:25px;
+    box-shadow:1px 1px 15px black;
+    animation: slideLeftToRight 1s ease-out;
+}
+
+.eiW {
+    width:90%;
+    padding:3%;
+    margin:auto;
+}
+
+.desktop-only {
+    display:block;
+}
+
+.mobile-only {
+    display:none;
+}
+
+.lh-2 {
+    line-height:2;
+}
+
+.dent-1 {
+    padding-left:4%;
+}
+
+.certificate-images {
+    width:90%;
+    height:auto;
+    border-radius:25px;
+    box-shadow: 3px 3px 7px black;
+    border:solid 1px rgba(168, 168, 168, 0.139);
+    margin:1%;
+}
+
+.project-video {
+    width:auto;
+    box-shadow: 3px 3px 7px black;
+    border:solid 1px rgba(168, 168, 168, 0.139);
+}
+
+.my-skills {
+    animation: slideLeftToRightWithDelay 3s ease-out;
+}
+
+.my-projects-area {
+    animation: slideLeftToRightWithDelay 4.5s ease-out;
+}
+
+.my-work-projects-area {
+    animation: slideLeftToRightWithDelay 5.5s ease-out;
+}
+
+.rating-and-reviews {
+    animation: slideLeftToRightWithDelay 6.5s ease-out;
+}
+
+@media (max-width: 768px) {
+    #fixed-menu {
+        width:60vw;
+    }
+    .freelancer-inquire {
+        animation: slideUpToDownWithDelay 2s ease-out;
+    }
+    .profilePic {
+        animation: slideUpToDownWithDelay 1s ease-out;
+    }
+    .home-desc {
+        animation: slideUpToDownWithDelay 3s ease-out;
+    }
+    .navigation-logo {
+        margin-right:5%;
+    }
+    .box-2x {
+        grid-template-columns:1fr;
+    }
+    .eiW {
+        width:auto;
+    }
+    .desktop-only {
+        display:none;
+    }
+    .mobile-only {
+        display:block;
+    }
+}
